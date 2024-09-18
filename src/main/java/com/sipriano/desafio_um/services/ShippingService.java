@@ -1,7 +1,9 @@
 package com.sipriano.desafio_um.services;
 
 import com.sipriano.desafio_um.entities.Order;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ShippingService {
 
     public double shippment(Order order) {
