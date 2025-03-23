@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sipriano</groupId>
-	<artifactId>desafio-um</artifactId>
+	<artifactId>componentes-injecao-dependencia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>desafio-um</name>
 	<description>Desafio do curso devsuperior java spring</description>

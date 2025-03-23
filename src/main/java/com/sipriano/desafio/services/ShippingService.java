@@ -1,6 +1,6 @@
-package com.sipriano.desafio_um.services;
+package com.sipriano.desafio.services;
 
-import com.sipriano.desafio_um.entities.Order;
+import com.sipriano.desafio.entities.Order;
 import org.springframework.stereotype.Service;
 
 @Service

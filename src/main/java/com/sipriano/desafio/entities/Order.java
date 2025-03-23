@@ -1,4 +1,4 @@
-package com.sipriano.desafio_um.entities;
+package com.sipriano.desafio.entities;
 
 public class Order {
 

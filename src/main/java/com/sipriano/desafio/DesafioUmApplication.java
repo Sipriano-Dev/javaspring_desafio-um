@@ -1,8 +1,7 @@
-package com.sipriano.desafio_um;
+package com.sipriano.desafio;
 
-import com.sipriano.desafio_um.entities.Order;
-import com.sipriano.desafio_um.services.OrderService;
-import com.sipriano.desafio_um.services.ShippingService;
+import com.sipriano.desafio.entities.Order;
+import com.sipriano.desafio.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -33,7 +32,8 @@ public class DesafioUmApplication implements CommandLineRunner {
 		Double discount = sc.nextDouble();
 
 		Order order = new Order(cod, basic, discount);
-		System.out.println(orderService.total(order));
+		System.out.println("Pedido Código: " + cod);
+		System.out.println("Valor Total: " + orderService.total(order));
 
 		sc.close();
 	}
